@@ -20,9 +20,9 @@ final = []
 
 for z in rar.index:
     final.append(
-    {'Country': z,
-    'Count': rar[z],
-    'Points': round(country_avg[z], 1)
+    {'country': z,
+    'count': rar[z],
+    'points': round(country_avg[z], 1)
     }
     )
 final
